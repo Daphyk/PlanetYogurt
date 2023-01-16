@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PlanetYogurt Landing Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <a href="#"><img src="logo2.png" class="logo"></a>
+    </header>
+    <div class="textBox">
+        <h2>It's not just Yogurt<br>It's <span> PlanetYogurt</span></h2>
+        <p> Planet Yogurt is a Kenyan frozen soft dessert that features more than 20 flavors<br> as well as over 30 toppings made from natural fruits. All the product is made on <br>site at the back end of the store and flavors contain less sugar than ice
+            cream <br>thereby making it a healthier option and always fresh. Currently, Planet Yogurt<br> has 5 branches across Kenya thus enjoying great traction in the market & high<br> sales as it is the first of it’s kind. As a brand they strive to
+            uphold their three<br> values Healthy, Tasty & Fun at all times.
+        </p>
+        <a href="https://www.planetyogurt.co.ke/">Learn More</a>
+    </div>
+    <div class="imgBox">
+        <img src="img111.png" class="yogurt">
+    </div>
+    <ul class="thumb">
+        <li><img src="thumb111.png" onclick="imgSlider('img111.png');changeCircleColor('#95bb72')"></li>
+        <li><img src="thumb112.png" onclick="imgSlider('img112.png');changeCircleColor('#fffde7')"></li>
+        <li><img src="thumb113.png" onclick="imgSlider('img113.png');changeCircleColor('#964b00')"></li>
+    </ul>
+    <!--<ul class="sci">
+            <li>
+                <a href="#"><img src="facebook.png"></a>
+            </li>
+            <li>
+                <a href="#"><img src="twitter.png"></a>
+            </li>
+            <li>
+                <a href="#"><img src="instagram.png"></a>
+            </li>
+        </ul>-->
+    <!--- <figure class="personaprofilies-animation">
+            <div aria-hidden="true" class="persona-viewer" data-reducemotion="false" style="--rotateX: 17.7322; --rotateY: -25.5927; --globalRotation: 10980; --scale: 1;" </figure>-->
+    <footer>
+        <a href="https://kendy.itinga.co.ke/" target="_blank">Developed by <span>kendid</span></a>
+    </footer>
+    <script type="text/javascript">
+        function imgSlider(anything) {
+            document.querySelector('.yogurt').src = anything;
+        }
+
+        /*function changeCircleColor(color) {
+            const circle = document.querySelector('.circle');
+            circle.style.background = color;
+        }*/
+    </script>
+</body>
+
+</html>
